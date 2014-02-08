@@ -6,7 +6,6 @@
   "override_attributes": {},
   "description": "install common tools",
   "run_list": [
-    "vim",
     "iptables",
     "selinux::disabled"
   ]
