@@ -1,6 +1,11 @@
 # 環境設定の仕方(CentOS 6.4)
 
 ## 初期設定
+### host名設定
+```
+> sudo hostname nosql-benchmark(n)
+```
+
 ### hostsファイル編集
 ```
 > sudo vi /etc/hosts
