@@ -1,0 +1,16 @@
+{
+  "name": "hbase",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "java": {
+      "jdk_version": "7"
+    }
+  },
+  "override_attributes": {},
+  "description": "install softwares required by hbase",
+  "run_list": [
+    "java"
+  ]
+}
+
